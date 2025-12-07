@@ -1,0 +1,14 @@
+{
+    "name": "v-music",
+    "version": "1.0.0",
+    "description": "V-Music - Full Stack Music Application",
+    "scripts": {
+        "frontend": "cd frontend && npm start",
+        "backend": "cd backend && npm run dev",
+        "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+        "install-all": "cd frontend && npm install && cd ../backend && npm install"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
